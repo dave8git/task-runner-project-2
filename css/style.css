@@ -150,5 +150,53 @@ header ul li {
 /* Our portfolio */
 .portfolio {
   background-color: #f7f7f7;
+  width: 100%;
+}
+
+.card-section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card-section-row {
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+.card {
+  width: 30%;
+  background-color: white;
+  margin: 3%;
+  border: 1px solid;
+}
+
+.card-txt {
+  text-align: center;
+  padding: 10px;
+}
+
+/* footer */
+.footer-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 40%;
+}
+
+.footer-icon-section {
+  line-height: 50px;
+}
+
+footer .fab {
+  text-align: center;
+  font-size: 10px;
+  background: black;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  color: #fff;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */
