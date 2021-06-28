@@ -39,6 +39,7 @@ body {
       justify-content: center;
   -ms-flex-direction: column;
       flex-direction: column;
+  padding-bottom: 35px;
 }
 
 .section-heading .section-title {
@@ -46,11 +47,12 @@ body {
   display: flex;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 22px;
   -ms-flex-align: center;
       align-items: center;
   -ms-flex-pack: center;
       justify-content: center;
+  font-weight: bold;
 }
 
 .section-heading .section-subtitle {
@@ -58,8 +60,19 @@ body {
   color: #777777;
 }
 
+section {
+  padding: 80px 0;
+}
+
 /* Header */
 /* Navigation */
+.logo {
+  font-family: "Lobster", cursive;
+  font-size: 26px;
+  color: #fed136;
+  text-transform: uppercase;
+}
+
 header {
   background: url("https://images.pexels.com/photos/5351327/pexels-photo-5351327.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") 20% 60% no-repeat;
   background-size: cover;
@@ -85,6 +98,7 @@ header ul li {
   -ms-flex-pack: justify;
       justify-content: space-between;
   color: #fff;
+  font-family: "Roboto", sans-serif;
 }
 
 .topbar a {
@@ -101,6 +115,8 @@ header ul li {
       justify-content: space-around;
   -ms-flex-direction: column;
       flex-direction: column;
+  padding-top: 80px;
+  padding-bottom: 95px;
 }
 
 .splash-inner .splash-title {
@@ -128,7 +144,7 @@ header ul li {
       flex-direction: column;
   -ms-flex-align: center;
       align-items: center;
-  padding: 0 4% 0 4%;
+  padding: 4% 4% 0 4%;
 }
 
 .icon-group .fas {
@@ -145,6 +161,7 @@ header ul li {
 
 .icon-group p {
   text-align: center;
+  font-family: "Baskervville", serif;
 }
 
 /* Our portfolio */
@@ -198,5 +215,20 @@ footer .fab {
   line-height: 20px;
   color: #fff;
   border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+  .icon-groups {
+    display: block;
+  }
+  .card-section-row {
+    display: block;
+  }
+  .card-section-row .card {
+    width: 100%;
+  }
+  .footer-wrapper {
+    max-width: 68%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
