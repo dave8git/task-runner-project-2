@@ -1,0 +1,154 @@
+/* Variables */
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  color: #3d3d3d;
+  font-family: "Inconsolata", monospace;
+}
+
+.btn {
+  background-color: #fed136;
+  /* Yellow */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.section-heading {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.section-heading .section-title {
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.section-heading .section-subtitle {
+  font-family: "Baskervville", serif;
+  color: #777777;
+}
+
+/* Header */
+/* Navigation */
+header {
+  background: url("https://images.pexels.com/photos/5351327/pexels-photo-5351327.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") 20% 60% no-repeat;
+  background-size: cover;
+}
+
+header ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+header ul li {
+  margin-right: 36px;
+  position: relative;
+  display: inline-block;
+}
+
+.topbar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  color: #fff;
+}
+
+.topbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.splash-inner {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.splash-inner .splash-title {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+.splash-inner .splash-subtitle {
+  color: #fff;
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+}
+
+/* services */
+.icon-groups {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon-group {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 0 4% 0 4%;
+}
+
+.icon-group .fas {
+  text-align: center;
+  font-size: 30px;
+  border-color: #fed136;
+  border: 2px solid #fed136;
+  width: 50px;
+  height: 50px;
+  line-height: 40px;
+  color: #fed136;
+  border-radius: 50%;
+}
+
+.icon-group p {
+  text-align: center;
+}
+
+/* Our portfolio */
+.portfolio {
+  background-color: #f7f7f7;
+}
+/*# sourceMappingURL=style.css.map */
